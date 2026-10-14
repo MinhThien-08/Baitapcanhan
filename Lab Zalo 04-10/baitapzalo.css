@@ -1,0 +1,60 @@
+body {
+    background-color: #eeeeee;
+}
+
+.card {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid lightblue;
+}
+
+h1 {
+    font-size: 28px;
+    color: red;
+}
+
+h2 {
+    color: gray;
+}
+
+.intro {
+    margin: 15px;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: lightcyan;
+}
